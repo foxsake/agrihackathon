@@ -7,6 +7,8 @@ body{
 }
 #header1 h1{
     color:#ffffff;
+    margin-top:3px;
+    font-size:18px;
 }
 .triangle{
     width:0;
@@ -199,9 +201,6 @@ table li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.philrice-logo{
-    height:70px;
-}
 .no-triangle{
     padding-top:30px;
 }
@@ -217,6 +216,13 @@ table li{
 .sponsors-right{
     text-align:center;
 }
+.philrice-logo{
+    margin-top:10px;
+    height:70px;
+}
+.logo-align{
+    text-align:center;
+}
 
 @media(min-width:990px){
     .overlapping{
@@ -227,6 +233,9 @@ table li{
         text-align:left;
     }
     .sponsors-right{
+        text-align:right;
+    }
+    .logo-align{
         text-align:right;
     }
 }
