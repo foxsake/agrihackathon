@@ -4,6 +4,7 @@ body{
 }
 #header1{
     background-color:#34495e;
+    overflow:hidden;
 }
 #header1 h1{
     color:#ffffff;
