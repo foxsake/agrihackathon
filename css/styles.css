@@ -224,6 +224,12 @@ table li{
 .logo-align{
     text-align:center;
 }
+.speaker_det{
+    text-decoration:underline;
+}
+.speaker_det:hover{
+    cursor:pointer;
+}
 
 @media(min-width:990px){
     .overlapping{

@@ -46,4 +46,8 @@ $(document).ready(function(){
 	else
 	    showpdf($(this).attr('data-target'));
     });
+
+    $('#djt').click(function(){
+        showpdf('pdf/Dr.Jasper_Tallada.pdf');
+    });
 });
