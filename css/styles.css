@@ -9,7 +9,7 @@ body{
 #header1 h1{
     color:#ffffff;
     margin-top:3px;
-    font-size:18px;
+    font-size:48px;
 }
 .triangle{
     width:0;
@@ -37,7 +37,7 @@ body{
   background-position: center center;
   background-size: cover;  
   background-image: url('../img/header.jpg');
-  padding:0 0 28% 0;
+  padding:0 0 40% 0;
 }
 .toSides{
     margin-left:0;
@@ -261,4 +261,10 @@ table li{
     .sponsors-right{
         text-align:right;
     }
+}
+.nomarginbot{
+    margin-bottom:0;
+}
+.sect-bottom{
+    margin-bottom:12px;
 }
