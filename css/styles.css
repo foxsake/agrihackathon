@@ -279,3 +279,9 @@ table li{
 .pad-top{
     padding-top:60px;
 }
+.bigger-text{
+    font-size:40px;
+}
+.little-space{
+    margin-top:12px;
+}
