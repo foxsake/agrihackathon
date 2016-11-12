@@ -268,3 +268,9 @@ table li{
 .sect-bottom{
     margin-bottom:12px;
 }
+.justified{
+    text-align:justify;
+    text-justify: inter-word;
+    padding-left:20px;
+    padding-right:20px;
+}
