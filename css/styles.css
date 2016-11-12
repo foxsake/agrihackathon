@@ -271,6 +271,11 @@ table li{
 .justified{
     text-align:justify;
     text-justify: inter-word;
-    padding-left:20px;
-    padding-right:20px;
+}
+.more-space{
+    padding-left:18px;
+    padding-right:18px;
+}
+.pad-top{
+    padding-top:60px;
 }
