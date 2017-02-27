@@ -50,4 +50,14 @@ $(document).ready(function(){
     $('#djt').click(function(){
         showpdf('pdf/Dr.Jasper_Tallada.pdf');
     });
+
+    $('#register').click(function(){
+        $('#oibModal').modal('show')
+    });
+    $('#references').click(function(){
+        $('#refmodal').modal('show')
+    });
+    $('#concept').click(function(){
+        $('#conceptmodal').modal('show')
+    });
 });

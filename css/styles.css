@@ -59,6 +59,7 @@ body{
 #section2{
     background-color: #fff2cc;
     color:black;
+    padding-bottom:15px;
 }
 .sec2head{
     display:block;
@@ -290,4 +291,21 @@ table li{
 }
 .little-space{
     margin-top:12px;
+}
+.link:hover{
+    /* background-color: #38117b; */
+    border: 2px solid #de060c;
+    color: #de060c;
+    background-color:transparent;
+    border-radius:3px;
+    cursor:pointer;
+}
+.link{
+    /* background-color: #38117b; */
+    border: 2px solid #de060c;
+    color: #fff2cc;
+    background-color:#de060c;
+    font-weight:normal;
+    border-radius:3px;
+    cursor:pointer;
 }
