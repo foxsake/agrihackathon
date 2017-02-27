@@ -5,6 +5,7 @@ body{
 #header1{
     background-color:#34495e;
     overflow:hidden;
+    height:51px;
 }
 #header1 h1{
     color:#ffffff;
@@ -103,11 +104,16 @@ body{
 .underline, .underline:hover{
     text-decoration:underline;
 }
-#secsession h2, #secsession h4{
+#secsession h2, #secsession h4, .secsessioncolor{
     color:#de060c;
 }
 #secsession li>h4, #secsessionsub{
     color:black !important;
+}
+#secsession p{
+    font-size:20px;
+    text-align:justify;
+    text-justify: inter-word;
 }
 .btn-orange:hover{
     /* background-color: #38117b; */
